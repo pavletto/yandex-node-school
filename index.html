@@ -1,0 +1,26 @@
+!
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Yandex Node.js School
+        </title>
+    </head>
+    <body>
+        <form action="#" id="myForm">
+            <input name="fio" pattern="^[\S]{1,}\s[\S]{1,}\s[\S]{1,}$" type="text"/>
+            <br/>
+            <input name="email" pattern="^([a-z0-9_\.-]+)@([a-z0-9_\.-]+)\.([a-z\.]{2,6})$" type="email"/>
+            <br/>
+            <input maxlength="16" minlength="16" name="phone" pattern="[\+]\d{1}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" type="tel"/>
+            <br/>
+            <button id="submitButton" type="submit">
+                Send
+            </button>
+        </form>
+    </body>
+</html>
+<div id="resultContainer">
+</div>
+<script src="index.js">
+</script>
